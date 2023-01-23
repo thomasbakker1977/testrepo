@@ -8,7 +8,7 @@ player_first_scored = 'Ruud Gullit'
 player_second_scored = 'Marco van Basten'
 
 goal_0 = 32
-goal_1 = 45 + 9
+goal_1 = 54
 
 scorers = player_first_scored + " " + str(goal_0) + ", " +  player_second_scored + " " + str(goal_1)
 
@@ -22,6 +22,7 @@ player = 'Hans van Breukelen'
 return_firstname_len = player.find(" ")
 first_name = player[0:return_firstname_len]
 print(first_name)
+
 last_name_tmp = player[return_firstname_len:]
 last_name = last_name_tmp[1:]
 print (last_name)
